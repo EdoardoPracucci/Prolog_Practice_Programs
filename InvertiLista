@@ -1,0 +1,12 @@
+inverti([], []).
+inverti([Head|Tail], Result) :-
+    inverti(Tail, Resto),
+    append(Resto, [Head], Result).
+
+
+
+
+
+
+
+inverti([a,b,c],Cosa_ottengo).
